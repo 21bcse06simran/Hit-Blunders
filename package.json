@@ -1,0 +1,14 @@
+{
+  "name": "hitblunder",
+  "version": "1.0.0",
+  "description": "it is a news website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hitBlunderTeams",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
