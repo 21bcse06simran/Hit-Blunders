@@ -14,13 +14,29 @@
         
             <img src="https://www.shutterstock.com/image-vector/vector-logo-news-symbol-icon-260nw-434775250.jpg" alt="Logo" width="100" height="100" class="nimg">
             <h1  id="h">HIT-BLUNDER NEWs</h1>
-            <button type="button" class="button">Sign In</button>
+            <div class="modal" tabindex="-1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           
         </div>
       </nav>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav2">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">News</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -44,6 +60,29 @@
             </div>
             <hr>
             <hr>
+            <div id="parent3">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://www.goodnewsnetwork.org/wp-content/uploads/2019/08/Coca-Cola-and-Pepsi-Soda-Cans-CC-Tuchodi.jpg" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2017/06/coca-cola-04-1496399950.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://creativereview.imgix.net/content/uploads/2021/10/CC_Real_Magic2.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
             <div id="parent2">
                 <div id="child1">
                     
@@ -55,7 +94,7 @@
                           <li class="list-group-item"><h5>INDIA NEWS</h5></li>
                           <li class="list-group-item">Food prices drive retail inflation to three-month high of 4.81%</li>
                           <li class="list-group-item"><h5>DELHI NEWSS</h5></li>
-                          <li class="list-group-item">Kejriwal's appeal as Yamuna water enters Delhi roads: ‘there will be no time…’</li>
+                          <li class="list-group-item"><a href="" id="head1">Kejriwal's appeal as Yamuna water enters Delhi roads: ‘there will be no time…’</a></li>
                           <li class="list-group-item"><h5>INDIA NEWS</h5></li>
                           <li class="list-group-item">Monsoon LIVE: 'Money spent on advertisement,' Gambhir to AAP as Delhi floods</li>
                           <li class="list-group-item"><h5>WORLD NEWS</h5></li>
@@ -99,7 +138,9 @@
                 <div id="child2">
                     <div class="card" style="width: 33rem;">
                         <div class="card-body">
+                          <a href="" id="head">
                             <h5 class="card-title">Daily brief: On European Parliament's Manipur violence debate, India says ‘internal matter’; and all the latest news</h5>
+                          </a>
                             <p class="card-text">Here are today’s top news, analysis, and opinion. Know all about the latest news and other news updates from Hindustan Times.</p>
                           </div>
                         <img src="https://www.hindustantimes.com/ht-img/img/2023/07/12/550x309/PTI07-01-2023-000264B-0_1689174840705_1689174894919.jpg" class="card-img-top" alt="...">
