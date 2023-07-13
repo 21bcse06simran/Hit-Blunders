@@ -7,6 +7,15 @@
 {
     background-color: #002244;
     color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#nav2
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 #h
 {
@@ -39,10 +48,65 @@
     margin-left: 10px;
     gap: 20px;
 }
+#parent3
+{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 #child1
 {
     margin-left: 100px;
 }
 #list-group h5{
     color: #002244;
+}
+#head
+    {
+        color: black;
+    }
+#head1
+{
+    color: black;
+    
+}
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }   
+@media screen  and (max-width :768px)
+{
+    #parent3
+    {
+        margin: 10%;
+    }
+    #i1
+    {
+        display: none;
+    }
+    #class1
+    {
+        margin: 20%;
+
+    }
+    #class2
+    {
+        margin: 20%;
+
+    }
+    #class3
+    {
+        margin: 30%,
+
+    }
+    #parent2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+
 }
