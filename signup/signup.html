@@ -6,19 +6,23 @@
     <title>Sign Up</title>
     <link rel="stylesheet" href="./signup.css" />
   </head>
-  <body>
-    <nav>
-      <a href="../temp/index.html">Home</a>
-      <a href="./signup.html">Singup</a>
-      <a href="../signin/signin.html">Sign In</a>
-    </nav>
-    <div id="signup_div">
+  <body> 
+      <nav class="simran">
+        <img src="https://st4.depositphotos.com/5040187/19700/v/600/depositphotos_197008712-stock-illustration-logo-swoosh-global-red-letter.jpg" alt="error" height="10%" width="10%" class="hbimg">
+      </nav>
+      <div class="background"></div>
+    <div id="signup_div"><div>
+      <div class="hidden"><h2 class="txt_c">Welcome to The Hit Blunders</h2><span class="infoLoginTextt" >Sign in or Create an account. It takes less than a minute!</div>
+      </div>
             <h1 style="color: blue; text-align: center">Sign Up</h1>
-            <input type="text" placeholder="Enter Email" id="email" />
-            <input type="text" placeholder="Enter Name" id="name" />
-            <input type="number" placeholder="Enter Mobile Number" id="mob" />
-            <input type="password" placeholder="Enter Password" id="password" />
-            <button id="signup">Sign Up</button>
+            <input type="text" placeholder="Enter Email" id="email" required />
+            <input type="text" placeholder="Enter Name" id="name" required/>
+            <input type="number" placeholder="Enter Mobile Number" id="mob" required/>
+            <input type="password" placeholder="Enter Password" id="password" required/>
+              <button id="signup">CONTINUE</button>
+              <span> Already have an account?<a href="../signin/signin.html" class="sig">login</a></span>
+            
+    </div>
     </div>
   </body>
   <script src="./signup.js"></script>

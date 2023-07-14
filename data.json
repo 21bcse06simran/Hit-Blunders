@@ -1,18 +1,74 @@
 {
-    "users": [
-      {
-        "email": "sarunnani@gmail.com",
-        "name": "sarun",
-        "mob": "123456789",
-        "password": "123456",
-        "id": 1
-      },
-      {
-        "email": "sarunnaniskrill@gmail.com",
-        "name": "Sama Sarun Reddy",
-        "mob": "789456123",
-        "password": "123456789",
-        "id": 2
-      }
-    ]
+  "users": [
+    {
+      "email": "sarunnani@gmail.com",
+      "name": "sarun",
+      "mob": "123456789",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "email": "sarunnaniskrill@gmail.com",
+      "name": "Sama Sarun Reddy",
+      "mob": "789456123",
+      "password": "123456789",
+      "id": 2
+    },
+    {
+      "email": "cse.21bcse06@silicon.ac.in",
+      "name": "bvk",
+      "mob": "09687778686",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "email": "cse.21bcse06@silicon.ac.in",
+      "name": "bvk",
+      "mob": "09687778686",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "email": "cse.21bcse06@silicon.ac.in",
+      "name": "bvk",
+      "mob": "09687778686",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "email": "cse.21bcse06@silicon.ac.in",
+      "name": "bvk78",
+      "mob": "09687778686",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "email": "cse.21bcse06@silicon.ac.in",
+      "name": "bvk",
+      "mob": "1234567890",
+      "password": "123",
+      "id": 7
+    },
+    {
+      "email": "",
+      "name": "",
+      "mob": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "email": "",
+      "name": "",
+      "mob": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "email": "simran@gmail.com",
+      "name": "bvk78",
+      "mob": "09687778686",
+      "password": "0987",
+      "id": 10
+    }
+  ]
 }
