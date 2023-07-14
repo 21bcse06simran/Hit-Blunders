@@ -67,8 +67,15 @@
     }
 #head1
 {
-    color: black;
-}   
+    color: black;    
+}
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }   
+
 @media screen  and (max-width :768px)
 {
     #parent3
