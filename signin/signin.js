@@ -18,7 +18,7 @@ button.addEventListener("click", () =>
         alert("Logged in Successfully!");
         localStorage.setItem("token", JSON.stringify(Date.now()));
         localStorage.setItem("id", JSON.stringify(comparision.id));
-        window.location.href = "../index.html";
+        window.location.href = "../home.html";
       } else {
         alert("You are not registered in!");
       }
