@@ -67,8 +67,7 @@
     }
 #head1
 {
-    color: black;
-    
+    color: black;    
 }
 footer {
     background-color: black;
@@ -76,6 +75,7 @@ footer {
     padding: 10px;
     text-align: center;
   }   
+
 @media screen  and (max-width :768px)
 {
     #parent3
@@ -106,7 +106,6 @@ footer {
         display: flex;
         flex-direction: column;
     }
-    
     
 
 }
