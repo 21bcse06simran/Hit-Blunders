@@ -67,7 +67,8 @@
     }
 #head1
 {
-    color: black;    
+    color: black;
+    
 }
 footer {
     background-color: black;
@@ -75,7 +76,6 @@ footer {
     padding: 10px;
     text-align: center;
   }   
-
 @media screen  and (max-width :768px)
 {
     #parent3
@@ -107,5 +107,24 @@ footer {
         flex-direction: column;
     }
     
+    
+
+}
+.tbutton
+{
+    padding: 10px;
+    margin: 20%;
+    border: solid #FF3333;
+    background-color: #FF3333;
+    border-radius: 10px;
+}
+.mbutton
+{
+    color: black;
+    background-color:#FF3333;
+    padding:10px ;
+    margin: 20%;
+    border:solid #FF3333;
+    border-radius: 10px;
 
 }
