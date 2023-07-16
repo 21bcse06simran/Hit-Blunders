@@ -2,16 +2,15 @@ nav {
     padding: 2%;
     display: flex;
     justify-content: space-around;
-    border: 3px solid black;
-    border-radius: 12px;
-  }
-  nav a {
-    color: black;
-    text-decoration: none;
+    background-color: lightgrey;
   }
   nav a:hover {
     text-decoration: underline;
     color: blue;
+    background-color: white;
+  }
+  .class{
+    background-color: blue;
   }
   #signup_div {
     margin: auto;
@@ -20,16 +19,19 @@ nav {
     width: 30%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 12px;
+    gap: 1px;
     border: 2px solid black;
     border-radius: 12px;
+    background-color: white;
   }
   #signup_div input {
     margin: 10px;
     width: 70%;
     padding: 1%;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 10px;
+    background-color:white;
+
   }
   #signup {
     display: block;
@@ -39,6 +41,33 @@ nav {
     width: 20%;
     border-radius: 20px;
     border: none;
-    padding: 1% 0%;
+    padding: 2% 0% 1%;
+    text-align:center;
+
+  } 
+  .hidden{
+    text-align: center;
+    background-color: white;
   }
-  
+  .infoLoginTextt,.sigu{
+    background-color: white;
+  }
+  h2,h1{
+    background-color: white;
+  }
+  *{
+    background-color:lightgrey;
+  }
+  #signup:hover{
+    background-color: red;
+  }
+  span{
+    background-color: white;
+    text-align: center;
+  }
+  .sig{
+    color: blue;
+    background-color: white;
+    padding: 2%;
+    text-decoration: none;
+  }

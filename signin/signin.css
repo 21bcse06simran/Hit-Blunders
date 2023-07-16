@@ -1,18 +1,4 @@
-nav {
-    padding: 2%;
-    display: flex;
-    justify-content: space-around;
-    border: 3px solid black;
-    border-radius: 12px;
-  }
-  nav a {
-    color: black;
-    text-decoration: none;
-  }
-  nav a:hover {
-    text-decoration: underline;
-    color: blue;
-  }
+
   #signin_div {
     margin: auto;
     margin-top: 5%;
@@ -23,6 +9,7 @@ nav {
     gap: 12px;
     border: 2px solid black;
     border-radius: 12px;
+    background-color: white;
   }
   #signin_div input {
     margin: auto;
@@ -30,6 +17,7 @@ nav {
     padding: 1%;
     border: 1px solid black;
     border-radius: 15px;
+    background-color: white;
   }
   #signin {
     margin: auto;
@@ -39,4 +27,36 @@ nav {
     border-radius: 20px;
     border: none;
     padding: 1% 0%;
+  }
+  *{
+    background-color:lightgray;
+  }
+  .hidden{
+    text-align: center;
+   background-color: white;
+  }
+  h2,h1{
+    background-color: white;
+  }
+  
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    width: 10%;
+    padding: 1%;
+  }
+  span{
+    background-color: white;
+    text-align: center;
+  }
+  .sig{
+    color: blue;
+    background-color: white;
+    padding: 2%;
+    text-decoration: none;
+  }
+  #signin:hover{
+    background-color: rgb(180, 36, 36);
   }
